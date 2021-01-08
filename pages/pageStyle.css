@@ -46,6 +46,10 @@ background-image: linear-gradient(#fcff28 0%, white 250px);
         min-height: calc(100vh - 100px)
     
     }
+        #heading {
+        display: block;
+        width: 100%;
+    }
     
     }
 
