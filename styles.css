@@ -46,6 +46,29 @@ body, html {
 
 
 
+
+    @media only screen and (max-width: 600px) {
+
+
+        #heading {
+            background-image: url('header.jpg');
+            margin: 0;
+            width: 100%;
+        }
+
+        #parent {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: calc(100vh - 100px);
+        overflow-y: hide;
+        overflow-x: hide;
+        }
+
+    }
+
                 #ul {
                     list-style-type: square;
                 }
@@ -95,27 +118,3 @@ body, html {
                         input[type=checkbox]:checked ~ #playlist {
                             display: block;}
                         
-        @media only screen and (max-width: 600px) {
-        #body, html {
-                overflow-y: scroll;
-                overflow-x: scroll;
-            
-
-        #heading {
-            background-image: url('header.jpg');
-            margin: 0;
-            width: 100%;
-        }
-
-        #parent {
-        padding: 0;
-        margin-left: 20px;
-        margin-right: 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        height: calc(100vh - 100px);
-        overflow-y: hide;
-        overflow-x: hide;
-        }
-
-    }
