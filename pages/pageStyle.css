@@ -30,6 +30,25 @@ background-color: transparent;
 background-image: linear-gradient(#fcff28 0%, white 250px);
 }
 
+@media only screen and (max-width: 600px) {
+    #parent {
+    display: block;
+    width: 100vw;
+    }
+    
+    #one {
+    display: none;
+    }
+    
+    #two {
+        width: 100vw;
+        padding-left: 0;
+        min-height: calc(100vh - 100px)
+    
+    }
+    
+    }
+
             #biolink {
                 color: blue;
                 text-decoration: underline;
@@ -80,21 +99,3 @@ video {
 line-height: 1.5; 
 }
 
-@media only screen and (max-width: 600px) {
-#parent {
-display: block;
-width: 100vw;
-}
-
-#one {
-display: none;
-}
-
-#two {
-    width: 100vw;
-    padding-left: 0;
-    min-height: calc(100vh - 100px)
-
-}
-
-}
