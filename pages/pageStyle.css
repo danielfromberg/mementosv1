@@ -1,20 +1,22 @@
 html, body {
+
+background-repeat: none;
+background-size: cover;
 height: 100%;
 min-height: 100%;
 width: 100%;
 margin: 0;
 background-image: linear-gradient(red, blue, green);
-background-repeat: none;
-background-size: cover;
-overflow-y: visible;
-overflow-x: hide;
+position: fixed;
+overflow-y: scroll;
+overflow-x: visible;
+
+
 }
 
 #parent {
 padding: 0;
 width: 100%;
-overflow-y: visible;
-overflow-x: visible;
 display: grid;
 grid-template-columns: 12.5vw 75vw 12.5vw;
 margin-left: 0;
